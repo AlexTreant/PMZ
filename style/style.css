@@ -1,0 +1,9 @@
+body {
+    /*max-width: 1200px;*/
+    font-family: 'Comfortaa', cursive;
+}
+header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
