@@ -2,8 +2,24 @@ body {
     /*max-width: 1200px;*/
     font-family: 'Comfortaa', cursive;
 }
+@media (max-width: 767px) {
+    .allHeader {
+        max-width: none;
+    }
+}
 header {
+    height: 100px;
+    margin: 0px auto;
+    padding: 0px auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
+    background-color: #0f4c81;
+}
+.allHeader {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 20px;
+    color: white;
 }
